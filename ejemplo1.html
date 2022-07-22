@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>    
+    <!-- Following is the line for adding your SAP Customer Data Cloud API key -->
+    <script type="text/javascript" lang="javascript" src="http://cdn.gigya.com/js/gigya.js?apikey=3_7XymYq3NjQES0Ho5bGln4aKsqVnQC0knrDsEwdXqcVAuDBpWxGXrlgQk2aEihX6T"></script>
+  </head>mm
+  <body>
+    <!-- The following div contains the same command for login and registration, with a different start screen -->
+    <div id="runningCodeExample" style="border: 1px solid skyblue; padding: 15px; width: 300px">
+      <a href="#" onclick="gigya.accounts.showScreenSet({screenSet:'Default-RegistrationLogin'});">Login</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+      <a href="#" onclick="gigya.accounts.showScreenSet({screenSet:'Default-RegistrationLogin', startScreen:'gigya-register-screen'});">Register</a>
+    </div>
+  </body>
+</html>

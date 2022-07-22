@@ -1,0 +1,20 @@
+{ "callId": "6eeb1a3286544c10802abc71370bdadd",
+ "errorCode": 0,
+  "apiVersion": 2,
+   "time": "2022-07-19T11:36:07.770Z",
+    "registeredTimestamp": 1640275387000,
+     "UID": "46080dce391d4c51bf609210d06dfbe1",
+      "UIDSignature": "Yct5f8tDne8uNB6FpC9qRLhVvWM=",
+       "signatureTimestamp": "1658230567",
+        "created": "2021-12-23T16:00:08.734Z",
+         "createdTimestamp": 1640275208000,
+          "data": {
+             "gigyaImportJobId": "3fbd2adf5a994da290398a4755671fc5",
+              "OrganizationGroups": ["eudl_dkbp_denv_distributor"],
+               "profile": { "b2bcountry": "ES", "title": "0001" } 
+            },
+            "isActive": true,
+            "isRegistered": true,
+             "isVerified": true,
+              "lastLogin": "2022-07-19T11:29:57.614Z",
+               "lastLoginTimestamp": 1658230197000, "lastUpdated": "2022-07-19T11:30:09.872Z", "lastUpdatedTimestamp": 1658230209872, "loginProvider": "site", "oldestDataUpdated": "2021-12-23T16:00:08.734Z", "oldestDataUpdatedTimestamp": 1640275208734, "password": { "created": "2022-07-19T10:36:10.468Z" }, "profile": { "firstName": "Victor", "lastName": "Fuentes", "city": "lkshajdklsfa", "country": "IT", "email": "victor.fuentes_20211223_01@mailinator.com", "zip": "08755" }, "registered": "2021-12-23T16:03:07.385Z", "socialProviders": "site", "verified": "2021-12-23T16:04:05.673Z", "verifiedTimestamp": 1640275445673, "status": "OK", "errorMessage": "", "statusMessage": "", "requestParams": { "connectWithoutLoginBehavior": "loginexistinguser", "defaultRegScreenSet": "Default-RegistrationLogin", "defaultMobileRegScreenSet": "Default-RegistrationLogin", "sessionExpiration": -1, "rememberSessionExpiration": -1, "apiDomain": "eu1.gigya.com", "workflow": { "path": "workflow/resources/js/entryPoint.js" }, "enabledProviders": "*", "lang": "it", "storageDomainOverride": "cdc.daikin.eu", "_langVariations": ["fr-BE", "nl-BE", "et-ee", "en-sa", "de-at", "lt-lt", "lv-lv", "nl-be", "zh-cn"], "_langStd": ["ar", "bg", "cs", "da", "de", "en", "el", "es", "fi", "fr", "hr", "hu", "it", "ja", "an", "mk", "nl", "no", "pl", "pt", "ro", "ru", "sk", "sl", "sr", "sv", "tr", "uk"], "customEventMap": { "eventMap": [{ "events": "*", "args": [null] }] }, "APIKey": "3_Jq39GQzM0qOkqLWIIWCdmBl1XXpBPnOAXx6IplzNl0dHCHqtlYzAmdUKYa71sCk-" }, "operation": "/accounts.getAccountInfo" 
