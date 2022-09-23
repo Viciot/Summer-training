@@ -14,12 +14,33 @@
 <script>
 
     //método GET, esto es una petición al URL y guardar la respuesta en la variable "data"
-    $.getJSON("https://api.myjson.com/bins/tarOf", function(data){
+    $.getJSON("https://swapi.dev/api/starships/", function(data){
 
         console.log(data)
-    
+        
+        function mostrarTitols () {
+
+            var nombres=data.name;
+
+            // console.log(nombre); -> esto no se puede hacer pq necesitas iterar en bucle todo el array
+
+            $.each(nombres, function(key,value){
+                
+                
+                var $name= $("</p>").html(value.name);
+                $("#search").append($name);
+
+            });
+        };
+
+        mostrarTitols()
+
     });
+    /*
+    $.getJSON("https://swapi.dev/api/starships/schema", function(data){
 
-
+        console.log(data)   
+    });
+    */
 </script>
 </html>
